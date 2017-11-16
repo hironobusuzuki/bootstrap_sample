@@ -1,3 +1,4 @@
+```
 $ rbenv local 2.4.1
 $ rbenv exec bundle init
 $ vi Gemfile
@@ -28,3 +29,9 @@ $ vi app/assets/javascripts/application.js
 //= require bootstrap-sprockets
 $ vi app/views/books/index.html.erb
 table class="table table-striped"
+$ git config --local user.email hirosuzu001@gmail.com
+$ git config --local user.name hironobusuzuki
+$ git add *
+$ git commit -m 'first commit'
+$ git push origin master
+```
